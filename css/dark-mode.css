@@ -1,0 +1,147 @@
+/* Dark Mode Styles */
+body.dark-theme {
+  color: var(--text-dark);
+  background-color: var(--bg-dark);
+}
+
+body.dark-theme .header {
+  background-color: rgba(17, 24, 39, 0.95);
+  color: var(--text-dark);
+}
+
+body.dark-theme .nav-link {
+  color: var(--text-dark);
+}
+
+body.dark-theme .logo a {
+  color: var(--primary-blue-dark);
+}
+
+body.dark-theme .section-title::after {
+  background-color: var(--primary-blue-dark);
+}
+
+body.dark-theme .highlight {
+  color: var(--primary-blue-dark);
+}
+
+body.dark-theme .hero-subtitle {
+  color: var(--text-secondary-dark);
+}
+
+body.dark-theme .hero-description {
+  color: var(--text-secondary-dark);
+}
+
+body.dark-theme .project-card {
+  background-color: var(--bg-card-dark);
+  border-color: var(--border-dark);
+  color: var(--text-dark);
+}
+
+body.dark-theme .project-description {
+  color: var(--text-secondary-dark);
+}
+
+body.dark-theme .tech-tag {
+  background-color: rgba(59, 130, 246, 0.2);
+  color: var(--primary-blue-dark);
+}
+
+body.dark-theme .about-text p {
+  color: var(--text-secondary-dark);
+}
+
+body.dark-theme .skills-list li {
+  background-color: var(--bg-card-dark);
+  border-color: var(--border-dark);
+  color: var(--text-dark);
+}
+
+body.dark-theme .placeholder-image {
+  background-color: var(--bg-card-dark);
+  border-color: var(--border-dark);
+  color: var(--text-secondary-dark);
+}
+
+body.dark-theme .form-group input,
+body.dark-theme .form-group textarea {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  border-color: var(--border-dark);
+}
+
+body.dark-theme .form-group input:focus,
+body.dark-theme .form-group textarea:focus {
+  border-color: var(--primary-blue-dark);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+body.dark-theme .footer {
+  background-color: var(--bg-card-dark);
+  border-color: var(--border-dark);
+  color: var(--text-dark);
+}
+
+body.dark-theme .contact-list a {
+  color: var(--primary-blue-dark);
+}
+
+body.dark-theme .social-links a {
+  color: var(--text-secondary-dark);
+}
+
+body.dark-theme .social-links a:hover {
+  color: var(--primary-blue-dark);
+}
+
+body.dark-theme .sun-icon {
+  display: inline;
+}
+
+body.dark-theme .moon-icon {
+  display: none;
+}
+
+body.dark-theme .theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Dark mode specific button styles */
+body.dark-theme .btn-primary {
+  background-color: var(--primary-blue-dark);
+}
+
+body.dark-theme .btn-primary:hover {
+  background-color: #2563eb;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+body.dark-theme .btn-secondary {
+  background-color: var(--secondary-purple-dark);
+}
+
+body.dark-theme .btn-secondary:hover {
+  background-color: #9333ea;
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.3);
+}
+
+body.dark-theme .btn-outline {
+  color: var(--primary-blue-dark);
+  border-color: var(--primary-blue-dark);
+}
+
+body.dark-theme .btn-outline:hover {
+  background-color: var(--primary-blue-dark);
+}
+
+/* Dark mode for form messages */
+body.dark-theme .form-message.success {
+  background-color: rgba(16, 185, 129, 0.15);
+  border-color: #34d399;
+}
+
+body.dark-theme .form-message.error {
+  background-color: rgba(239, 68, 68, 0.15);
+  border-color: #f87171;
+}
